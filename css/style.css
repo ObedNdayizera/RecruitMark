@@ -1,0 +1,550 @@
+/* Ensure all previously commented sections are correctly commented */
+
+/*////////////////////////////////////////////////////////////////////////*/
+
+/* Common styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #1F5673;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #759FBC;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #1F5673;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 100px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="number"],
+form input[type="password"],
+form select {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ddd;
+}
+
+form input[type="submit"] {
+    background-color: #759FBC;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #1F5673;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0px 5rem;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table td a {
+    color: #1F5673;
+}
+
+footer {
+    background-color: #759FBC;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/*////////////////////////////////////////////////////////////////////////*/
+/* Original Commented Sections */
+ 
+/*
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    display: inline;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="number"],
+form input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ddd;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+*/
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+/*
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff4b2b;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    display: inline;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="number"],
+form input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ddd;
+}
+
+form input[type="submit"] {
+    background-color: #ff4b2b;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ff416c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    background-color: #ff4b2b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+*/
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+/*
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2ecc71;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    display: inline;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="number"],
+form input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ddd;
+}
+
+form input[type="submit"] {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #3498db;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    background-color: #2ecc71;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+*/
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+/*
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f39c12;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    display: inline;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="number"],
+form input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ddd;
+}
+
+form input[type="submit"] {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #e74c3c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    background-color: #f39c12;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+*/
